@@ -6,7 +6,7 @@
 
 body 
 {
-    background-image: url("/home/nishant/Desktop/WebTechProject/Home-Page-Images/background.jpg");
+    background-image: url("../Home-Page-Images/background.jpg");
 }
 
 /* Slideshow container */
