@@ -6,8 +6,8 @@
 		<title> Hover Effect </title>
 	</head>
 	<body>
-		<script type="text/javascript">	
-			function openDetails(link) 
+		<script type="text/javascript">
+			function openDetails(link)
 			{
 				window.location(link)
 			}
@@ -25,34 +25,39 @@
 						<a href=""> Neo-Noir </a>
 						<a href=""> Science Fiction </a>
 					</div>
-				</li>	
+				</li>
 				<div class = "login">
 					<li><a href="../HTML/login.html"> LOGIN </a> </li>
 				</div>
 				<div class = "signup">
-					<li><a href="../HTML/signup.html"> SIGN UP </a> </li>	
+					<li><a href="../HTML/signup.html"> SIGN UP </a> </li>
 				</div>
 			</ul>
 		</div>
 
-		<div class = "images">
-			
+  	<div class = "images">
+			<table width=100% style="padding:25px;margin:25px;">
+		 	<tr>
+
+			<td>
 			<div class="container">
 				<div style="position: absolute; top: 10px; left: 10px; width: 30%;">
 					<img src="../Movie-Images/BourneUltimatum.jpg" alt="No Image available" class="image">
 					<div class="overlay">
 						<button class = "buttonDetails" onclick="location.href='../HTML/details.html'">  View Details  </button>
-						<div class = "text" > IMDb:8.1/10 </div> 
+						<div class = "text" > IMDb:8.1/10 </div>
 						<div class = "heart">
 						<input type="image" src="../Heart-Poop-Images/heart.png" width="20" height="20" />
 						</div>
 						<div class = "poop">
 						<input type="image" src ="../Heart-Poop-Images/poop.png" width="20" height="20" />
-						</div>			
+						</div>
 					</div>
 				</div>
 			</div>
+		</td>
 
+			<td>
 			<div class = "container">
 			<div style = "position: absolute; top:10px; left:250px; width:30%;">
 				<img src="../Movie-Images/Leon.jpg" alt="No Image available" class="image">
@@ -65,11 +70,12 @@
 						<div class = "poop">
 						<input type="image" src ="../Heart-Poop-Images/poop.png" width="20" height="20" />
 						</div>
-
 					</div>
 			</div>
 			</div>
+		</td>
 
+		<td>
 			<div class = "container">
 			<div style = "position: absolute; top:10px; left:500px; width:30%;">
 				<img src="../Movie-Images/Minority_Report_Poster.jpg" alt="No Image available" class="image">
@@ -85,7 +91,9 @@
 					</div>
 			</div>
 			</div>
+		</td>
 
+		<td>
 			<div class = "container">
 			<div style = "position: absolute; top:10px; left:750px; width:30%;">
 				<img src="../Movie-Images/Terminator2poster.jpg" alt="No Image available" class="image">
@@ -101,7 +109,9 @@
 					</div>
 			</div>
 			</div>
+		</td>
 
+		<td>
 			<div class = "container">
 				<div style = "position: absolute; top:10px; left:1000px; width:30%;">
 					<img src="../Movie-Images/Faceoff.jpg" alt="No Image available" class="image">
@@ -117,6 +127,10 @@
 						</div>
 				</div>
 			</div>
+		</td>
+	</tr>
+</table>
+
 		</div>
 	</body>
 </html>
